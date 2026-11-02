@@ -1,7 +1,11 @@
 .callout {
     max-width: 400px;
     margin: 10px;
+<<<<<<< HEAD
     border: 1px solid rgba(0, 0, 0, .1);
+=======
+    border: 1px solid rgb(0 0 0 / 10%);
+>>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055
     padding: 15px;
     background-color: #247;
     color: #fff;
@@ -15,7 +19,10 @@
     background-color: #bbb;
     width: 100px;
     height: auto;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055
 }
 
 blockquote {
@@ -28,4 +35,8 @@ cite {
     padding-top: 3px;
     text-align: right;
     font-size: smaller;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055

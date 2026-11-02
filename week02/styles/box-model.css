@@ -1,4 +1,5 @@
 .callout {
+<<<<<<< HEAD
 	
 }
 
@@ -13,3 +14,19 @@ blockquote {
 cite {
 	
 }
+=======
+    /* write declarations here */
+}
+
+.callout img {
+    /* write declarations here */
+}
+
+blockquote {
+    /* write declarations here */
+}
+
+cite {
+    /* write declarations here */
+}
+>>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055

@@ -6,6 +6,14 @@ table {
     letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
+=======
+caption {
+    padding: 8px 10px;
+    font-weight: 700;
+}
+
+>>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055
 th,
 td {
     border: 1px solid rgb(160 160 160);
@@ -18,4 +26,8 @@ tfoot tr {
     background-color: #000;
     color: #fff;
     font-weight: 700;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055
