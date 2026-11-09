@@ -1,0 +1,39 @@
+
+/* limits the width of the main */
+main {
+    max-width: 840px;
+}
+
+/* gives format to the Honduras card */
+aside {
+    width: 200px;
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+}
+
+/* adjust the picture in the aside */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* adjust the picture in the main */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Remove the default padding from paragraphs */
+p {
+    padding: 0;
+}
+
+/* Format the footer */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
