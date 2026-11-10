@@ -1,3 +1,20 @@
+/* style the navigation bar */
+nav {
+    background-color: #1a4d8f;
+    padding: 1rem;
+}
+
+/* style the navigation links */
+nav a {
+    color: #ffffff;
+    padding: 0.5rem;
+    display: block;
+}
+
+/* color the main heading */
+h1 {
+    color: #1a4d8f;
+}
 
 /* limits the width of the main */
 main {
@@ -16,7 +33,7 @@ aside {
 
 /* adjust the picture in the aside */
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -24,6 +41,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid #1a4d8f;
+    padding: 4px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
 }
 
 /* Remove the default padding from paragraphs */
