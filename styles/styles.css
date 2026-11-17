@@ -7,7 +7,11 @@
     --card-width: 200px;
     --border-subtle: 1px solid rgb(0 0 0 / 0.2);
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* style the navigation bar */
 nav {
     background-color: var(--primary-color);
@@ -33,37 +37,51 @@ main {
 
 /* gives format to the Honduras card */
 aside {
-    width: var(--card-width);
-    margin: 20px 0;
-    border: var(--border-subtle);
-    padding: var(--padding-standard);
-    background-color: var(--secondary-color);
-    color: var(--text-dark);
+    width: 240px;
+    position: relative;
 }
 
 /* adjust the picture in the aside */
 aside img {
     width: var(--card-width);
-    height: auto;
+    height: auto;   
 }
 
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    color: var(--text-light);
+    text-shadow: 0 0 8px #000;
+}
 /* adjust the picture in the main */
 main img {
-    width: 150px;
+    width: var(--card-width);
     height: auto;
     border: 2px solid var(--primary-color);
     padding: 4px;
     box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 /* Remove the default padding from paragraphs */
 p {
     padding: 0;
 }
-
-/* Format the footer */
 footer {
     margin-top: 15px;
     border-top: var(--border-subtle);
     text-align: center;
 }
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: var(--border-subtle);
+    padding: var(--padding-standard);
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+    clear: both;
+}
+/* Format the footer */
