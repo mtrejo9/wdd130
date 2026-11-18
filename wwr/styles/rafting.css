@@ -78,7 +78,8 @@ nav, p, section, article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgb(244 162 97 / 0.85);
+    background-color: var(--secondary-color);
+    opacity: 0.9;
     color: #000000;
 }
 
@@ -86,4 +87,9 @@ nav, p, section, article {
     float: right;
     width: 125px;
     margin-left: 12px;
+}
+
+footer {
+    background-color: var(--accent2-color);
+    margin-top: 16px;
 }
