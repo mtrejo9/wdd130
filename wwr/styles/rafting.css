@@ -1,0 +1,89 @@
+/* colors and fonts variables */
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general body styles */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: #ffffff;
+}
+
+/* center and limit page width */
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* headers*/
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/*general spacing for nav, p, section, article */
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* social media logos without underline */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: auto;
+}
+
+/* ---step 5: Hero image styles --- */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgb(244 162 97 / 0.85);
+    color: #000000;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 12px;
+}
