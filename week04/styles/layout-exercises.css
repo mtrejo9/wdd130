@@ -1,67 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 1rem;
-    font-family: monospace;
-    font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
-    margin: 1rem;
-    border: 1px dashed;
-    padding: 1rem;
-}
-
+/* Ejercicio 1 */
 .one {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
+  border: 1px dashed black;
+  margin-bottom: 10px;
 }
 
 .flex {
-    background-color: #aba;
-    /* write declarations here */
-
+  background-color: #aba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid {
-    background-color: #abb;
-<<<<<<< HEAD
-    /* enter declarations here */
-=======
-    /* write declarations here */
->>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055
-
+  background-color: #abb;
+  display: grid;
+  place-items: center;
 }
 
+/* Ejercicio 2 */
 .container2 {
-    /* write declarations here */
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px dashed black;
+  padding: 20px;
 }
 
 .two {
-    background-color: #ace;
-    height: 100px;
+  width: 100px;
+  height: 150px;
+  background-color: #abd;
+  border: 1px dashed black;
+  margin: 10px;
+  text-align: center;
 }
 
+/* Ejercicio 3 */
 .container3 {
-    /* write declarations here */
-
-}
-
-.columns-3 {
-    /* write declaration here */
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  border: 1px dashed black;
+  padding: 10px;
 }
 
 .three {
-    margin: .25rem;
-    background-color: #abd;
-<<<<<<< HEAD
+  background-color: #abd;
+  border: 1px dashed black;
+  padding: 10px;
 }
-=======
+
+.columns-3 {
+  grid-column: 1 / 4;
 }
->>>>>>> 0a2d48e5285f98adc1a4216b0b8b2dc45774a055
